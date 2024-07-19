@@ -1,0 +1,1406 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
+    />
+    <!-- Link Swiper's CSS -->
+    <!-- <link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper/swiper-bundle.min.css"
+  /> -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <!-- <link rel="stylesheet" href="joa.css">
+  <link rel="stylesheet" href="main.css"> -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <title>Welcome to Beachland</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/flowbite@2.4.1/dist/flowbite.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ["Inter", "sans-serif"],
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+
+  <body>
+    <nav
+      class="border-gray-200 bg-gray-50 dark:bg-gray-800 dark:border-gray-700"
+    >
+      <div
+        class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
+      >
+        <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+          <img
+            src="assets/images/BCTLLOGO.png"
+            class="h-16"
+            alt="Flowbite Logo"
+          />
+          <span
+            class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"
+            >Beachland</span
+          >
+        </a>
+        <button
+          data-collapse-toggle="navbar-solid-bg"
+          type="button"
+          class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+          aria-controls="navbar-solid-bg"
+          aria-expanded="false"
+        >
+          <span class="sr-only">Open main menu</span>
+          <svg
+            class="w-5 h-5"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 17 14"
+          >
+            <path
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M1 1h15M1 7h15M1 13h15"
+            />
+          </svg>
+        </button>
+        <div class="hidden w-full md:block md:w-auto" id="navbar-solid-bg">
+          <ul
+            class="flex flex-col font-medium mt-4 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-transparent dark:border-gray-700"
+          >
+            <li>
+              <a
+                href="#"
+                class="block py-2 px-3 md:p-0 text-white bg-orange-700 rounded md:bg-transparent md:text-orange-700 md:dark:text-orange-500 dark:bg-orange-600 md:dark:bg-transparent"
+                aria-current="page"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                href="#about-us"
+                class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-orange-700 dark:text-white md:dark:hover:text-orange-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                >About Us</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-orange-700 dark:text-white md:dark:hover:text-orange-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                >Services</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-orange-700 dark:text-white md:dark:hover:text-orange-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                >Teams</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="bg-white mb-0 px-0 - dark:bg-gray-900">
+      <div
+        class="grid max-w-screen-xl min-h-screen px-4 py-0 w-100 mx-auto lg:ml-12 mr-0 lg:gap-0 lg:px-0 xl:gap-0 lg:py-0 lg:grid-cols-12"
+      >
+        <div class="mr-auto place-self-center lg:col-span-7">
+          <h1
+            class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white"
+          >
+            Welcome to
+            <span class="text-orange-500">Beachland consortium Limited!</span>
+          </h1>
+          <p
+            class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400"
+          >
+            Beachland consortium Limited is a customer-centric and technology
+            driven company that provides professional logistics services.
+          </p>
+          <a
+            href="#about-us"
+            class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-orange-700 hover:bg-orange-800 focus:ring-4 focus:ring-orange-300 dark:focus:ring-orange-900"
+          >
+            Get started
+            <svg
+              class="w-5 h-5 ml-2 -mr-1"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+          </a>
+          <!-- <a
+            href="#"
+            class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
+          >
+            Speak to Sales
+          </a> -->
+        </div>
+        <div
+          class="hidden contain bg-center bg-no-repeat bg-[url('http://joatelimterminals.com/cmacont1.png')] lg:mt-0 lg:col-span-5 lg:flex"
+        >
+          <!-- <img
+            src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/hero/phone-mockup.png"
+            alt="mockup"
+          /> -->
+          <!-- <img
+            class="contain w-100 img-fit"
+            src="http://joatelimterminals.com/cmacont1.png"
+            alt="Beachland cargo"
+          /> -->
+        </div>
+      </div>
+    </section>
+    <section id="about-us" class="bg-white dark:bg-gray-900">
+      <div
+        class="grid max-w-screen-xl min-h-screen px-4 py-0 mx-auto lg:gap-8 xl:gap-10 lg:py-0 lg:grid-cols-12"
+      >
+        <div class="mr-auto place-self-center lg:col-span-6">
+          <img src="https://joatelimterminals.com/cont.jpg" />
+          <!-- <div class="flex flex-row"> -->
+          <div class="mx-auto">
+            <div id="mission" class="text-left flex flex-col">
+              <h3
+                class="font-black text-orange-500 lg:text-3xl text-orange-600 my-4"
+              >
+                Mission Statement
+              </h3>
+              <p>
+                Our mission is to provide unique and excellent professional
+                shipping and logistics services that are tailored towards the
+                needs of our clients in a manner that gives value for money.
+              </p>
+              <a
+                href="./aboutus.html"
+                class="relative flex mt-3 font-bold text-sm font-medium text-orange-500 underline"
+                >Learn More...</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="mr-auto place-self-center lg:col-span-6">
+          <h2
+            class="max-w-2xl px-0 mt-2 text-2xl font-black leading-tight text-gray-900 sm:mt-0 sm:px-0 sm:text-6xl text-md text-medium mt-4 my-4"
+          >
+            About Us!
+          </h2>
+          <p class="font-medium font-normal">
+            The Company was established in June 5, 2020, as a result of the Port
+            Reforms initiated by the Nigerian Government, with the aim to
+            provide a high standard logistics service to Port users and Port
+            Terminal Operators.
+          </p>
+
+          <p class="mt-2 font-medium font-normal" style="text-indent: 14px">
+            BCTL offers its services for shipments by air and sea including
+            logistics for Customs formalities and handles transportation for all
+            your imports to and exports from Nigeria. Our principal areas of
+            activity are shipping agency, empty container holding-bay, import,
+            export, haulage, warehousing and plant service. BCTL is able to
+            ensure that it remains at the heart of the Nigerian shipping
+            industry. It has since become one of the most advantageous
+            holding-bay operator that directly located close to the port with
+            90% capacity above other empty container holding —bay in Lagos,
+            Nigeria
+          </p>
+
+          <a
+            href="./aboutus.html"
+            class="font-medium mt-4 text-orange-600 hover:text-orange-500"
+          >
+            <button
+              class="mt-4 relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-orange-500 group-hover:from-purple-600 group-hover:to-orange-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-orange-300 dark:focus:ring-orange-800"
+            >
+              <span
+                class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0"
+              >
+                Read More...
+              </span>
+            </button>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- <section
+      class="text-center w-100 mx-auto min-w-screen max-w-screen px-auto"
+    > -->
+    <!-- <h2
+      class="max-w-2xl px-0 mt-2 font-black leading-tight text-gray-900 sm:mt-0 sm:px-0 sm:text-5xl text-md text-center mt-4 my-4"
+    >
+      Services offering
+    </h2> -->
+    <!-- </section> -->
+
+    <section id="services-1" class="bg-white dark:bg-gray-900">
+      <div
+        class="grid max-w-screen-xl min-h-screen px-4 my-5 py-5 mx-auto lg:gap-8 xl:gap-10 lg:py-0 lg:grid-cols-12"
+      >
+        <div class="mr-auto place-self-center lg:col-span-6">
+          <img src="https://joatelimterminals.com/cont.jpg" />
+        </div>
+
+        <div class="mr-auto place-self-center lg:col-span-6">
+          <h2
+            class="max-w-2xl px-0 mt-2 text-lg font-black leading-tight text-gray-900 sm:mt-0 sm:px-0 sm:text-3xl text-md text-medium mt-4 my-4"
+          >
+            BCTL EMPTY CONTAINER TERMINAL OPERATION.
+          </h2>
+          <!-- <p class="font-medium font-normal">
+            The Company was established in June 5, 2020, as a result of the Port
+            Reforms initiated by the Nigerian Government, with the aim to
+            provide a high standard logistics service to Port users and Port
+            Terminal Operators.
+          </p> -->
+
+          <p class="mt-2 font-medium font-normal" style="text-indent: 14px">
+            BCTL Terminal has since then been undergoing a development process
+            in order to comply with the highest standards of demands of our
+            Customers — CMA CGM Shipping Line and Importers. Within this plan,
+            we have purchased additional Cargo Handling Equipment (CHE) and
+            installed IT systems and programmed to manage all gate in and gate
+            out empty containers in real time. For us in Joatelim, we believe
+            that continuous improvement on the existing standards is the best
+            way to achieving leadership over competition. Our dedicated and well
+            trained staff are offering the best available service with a
+            personal touch in order to satisfy our valuable customers. Joatelim
+            Terminal is in operation, 24 hours a day, 7 days a week and 365 days
+            a year.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="services-1" class="bg-white dark:bg-gray-900">
+      <div
+        class="grid max-w-screen-xl min-h-screen px-4 my-1 lg:order-1 py-2 mx-auto lg:gap-8 xl:gap-10 lg:py-0 lg:grid-cols-12"
+      >
+        <div class="mr-auto place-self-center lg:col-span-6">
+          <h2
+            class="max-w-2xl px-0 mt-2 text-lg font-black leading-tight text-gray-900 sm:mt-0 sm:px-0 sm:text-3xl text-md text-medium mt-4 my-4"
+          >
+            BCTL WAREHOUSING
+          </h2>
+
+          <p class="mt-2 font-medium font-normal" style="text-indent: 14px">
+            We offer warehousing services to major importers and exporters
+            within the city and Tincan port. Our Warehousing Properties of 1000
+            square metres capacity is available for rent and storage of goods.
+            We have been able to earn ourselves a respectable position among the
+            leading providers of Warehousing Services. Our people are skilled
+            professionals dedicated to your success hence; our Warehousing
+            Service operates turnkey distribution facilities that are
+            strategically located to serve our clients.
+          </p>
+        </div>
+
+        <div class="mr-auto place-self-center lg:col-span-6">
+          <img
+            class="flex-shrink-0 bg-red-500 border-2 border-red-500 object-cover w-auto h-160 mb-5 bg-gray-300 md:mb-0"
+            src="https://joatelimterminals.com//warehouse1.jpg"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section id="services-1" class="bg-white dark:bg-gray-900">
+      <div
+        class="grid max-w-screen-xl min-h-screen px-4 my-5 py-5 mx-auto lg:gap-8 xl:gap-10 lg:py-0 lg:grid-cols-12"
+      >
+        <div class="mr-auto place-self-center lg:col-span-6">
+          <img src="https://joatelimterminals.com/produce.png" />
+        </div>
+
+        <div class="mr-auto place-self-center lg:col-span-6">
+          <h2
+            class="max-w-2xl px-0 mt-2 text-lg font-black leading-tight text-gray-900 sm:mt-0 sm:px-0 sm:text-3xl text-md text-medium mt-4 my-4"
+          >
+            BCTL EXPORT
+          </h2>
+
+          <p class="mt-2 font-medium font-normal" style="text-indent: 14px">
+            The Company have been duly registered to carry out the business of
+            exportation.; hence, we have commenced our export chain business.
+            The Export operation is now expanding our opportunities to extend
+            our shipping busine to major exporters of Cocoa beans, cashew nuts,
+            cassava and other exportable items. Our Warehouse located within the
+            Terminal is an added advantage to our Customers to store export
+            products before the arrival of vessel with dedicated and well
+            trained staff, labour and stuffing equipments.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="services-1" class="bg-white dark:bg-gray-900">
+      <div
+        class="grid max-w-screen-xl min-h-screen px-4 my-1 lg:order-1 py-2 mx-auto lg:gap-8 xl:gap-10 lg:py-0 lg:grid-cols-12"
+      >
+        <div class="mr-auto place-self-center lg:col-span-6">
+          <h2
+            class="max-w-2xl px-0 mt-2 text-lg font-black leading-tight text-gray-900 sm:mt-0 sm:px-0 sm:text-3xl text-md text-medium mt-4 my-4"
+          >
+            BCTL BONDED TERMINAL.
+          </h2>
+
+          <p class="mt-2 font-medium font-normal" style="text-indent: 14px">
+            Our Customs Bonded Terminal services was approved by Nigeria Customs
+            services and it will give logistics advantage being located within
+            the port area, there easy access to vessel in terms of quick
+            evacuation of laden containers . The Import Bonded terminal is well
+            equipped with four 45 tones capacity containers handling plants, IT
+            system, well trained staff and security services is being currently
+            managed by Nigerian Police, Port Command for the best terminal
+            services with a personal touch in order to satisfy the Nigerian
+            importers and port stakeholders.
+          </p>
+        </div>
+
+        <div class="mr-auto place-self-center lg:col-span-6">
+          <img
+            class="flex-shrink-0 bg-red-500 border-2 border-red-500 object-cover w-auto h-160 mb-5 bg-gray-300 md:mb-0"
+            src="https://joatelimterminals.com/contimg.jpg"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section id="services-1" class="bg-white dark:bg-gray-900">
+      <div
+        class="grid max-w-screen-xl min-h-screen px-4 my-5 py-5 mx-auto lg:gap-8 xl:gap-10 lg:py-0 lg:grid-cols-12"
+      >
+        <div class="mr-auto place-self-center lg:col-span-6">
+          <img src="https://joatelimterminals.com/cmacont.jpg" />
+        </div>
+
+        <div class="mr-auto place-self-center lg:col-span-6">
+          <h2
+            class="max-w-2xl px-0 mt-2 text-lg font-black leading-tight text-gray-900 sm:mt-0 sm:px-0 sm:text-3xl text-md text-medium mt-4 my-4"
+          >
+            BCTL CLEARING AND FORWARDING AGENCY SERVICES.
+          </h2>
+
+          <p class="mt-2 font-medium font-normal" style="text-indent: 14px">
+            We have registered with Nigeria Customs Services as one of the
+            Clearing and Forwarding Agency in Nigeria, The Clearing and
+            Forwarding Agency services give us logistics advantage being an
+            indigenous Company to further expand our services to Honeywell Flour
+            Plc and other Nigeria numerous Importers. The office is well
+            equipped with IT system and dedicated and well trained staff for the
+            best shipping service in order to have quick access to the port
+            operation that will finally bring satisfaction to Customers and port
+            stakeholders
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="services-1" class="bg-white dark:bg-gray-900">
+      <div
+        class="grid max-w-screen-xl min-h-screen px-4 my-5 py-5 mx-auto lg:gap-8 xl:gap-10 lg:py-0 lg:grid-cols-12"
+      >
+        <div class="mr-auto place-self-center lg:col-span-6">
+          <img src="https://joatelimterminals.com/plant.jpg" />
+        </div>
+
+        <div class="mr-auto place-self-center lg:col-span-6">
+          <h2
+            class="max-w-2xl px-0 mt-2 text-lg font-black leading-tight text-gray-900 sm:mt-0 sm:px-0 sm:text-3xl text-md text-medium mt-4 my-4"
+          >
+            BCTL LOGISTICS AND PLANT OPERATIONS.
+          </h2>
+
+          <p class="mt-2 font-medium font-normal" style="text-indent: 14px">
+            BCTL Terminal is located directly on Union Dicon Salt Terminal,
+            which afforded us advantage of Providing logistics and plant
+            services to immediately handle numerous plants needs. Our Logistics
+            and plant services have since then been undergoing a development
+            process in order to comply with the highest standards of demands of
+            our customer— CMA CGM Nigeria Shipping Company. Within this plan, we
+            have purchased additional Cargo Handling Equipment. Our dedicated
+            and well trained staff are also not left out in offering the best
+            available service in order to satisfy our valuable customer. In
+            order to satisfy our customer, plants are dedicated for 24 hours a
+            day operation.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="team">
+      <div
+        class="max-w-screen-xl mx-auto w-full px-8 py-10 border-t border-gray-200 md:py-16 lg:py-24 xl:py-40 xl:px-0"
+      >
+        <div class="max-w-6xl mx-auto">
+          <div class="mb-10 md:mb-16">
+            <h2
+              class="mb-4 text-4xl font-extrabold leading-10 tracking-tight text-gray-900 sm:text-5xl sm:leading-none md:text-6xl lg:text-5xl xl:text-6xl text-center md:mb-6"
+            >
+              Our Team
+            </h2>
+
+            <p
+              class="max-w-screen-md mx-auto text-center my-6 text-xl font-medium text-gray-500 md:text-lg"
+            >
+              The Talented People Behind the Scenes and Successes of the
+              Organization
+            </p>
+          </div>
+
+          <div
+            class="grid gap-4 mx-auto justify-center items-center md:grid-cols-3 lg:grid-cols-4"
+          >
+            <div class="p-4 shadow">
+              <!-- <div class="h-48 mb-2 overflow-hidden rounded-lg shadow-lg md:h-60">
+                <img
+                  src="user.png"
+                  alt="Image"
+                  class="object-cover object-center w-full h-full"
+                />
+              </div> -->
+
+              <div class="flex flex-col items-center justify-center">
+                <div
+                  class="font-bold text-indigo-500 my-2 text-center md:text-lg"
+                >
+                  HON. GANIYU AJIBOLA OGUNSIJI
+                </div>
+                <p
+                  class="mb-3 text-md font-bold text-gray-500 md:text-base md:mb-4"
+                >
+                  (Chairmain)
+                </p>
+
+                <div class="flex">
+                  <div class="flex gap-4">
+                    <a href="#">
+                      <svg
+                        class="w-6 h-6 mb-1 text-blue-600 fill-current"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"
+                        />
+                      </svg>
+                    </a>
+                    <a href="#">
+                      <svg
+                        class="w-6 h-6 mb-1 text-blue-300 fill-current"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"
+                        />
+                      </svg>
+                    </a>
+                    <a href="#">
+                      <svg
+                        class="w-6 h-6 mb-1 text-blue-500 fill-current"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 448 512"
+                      >
+                        <path
+                          d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"
+                        ></path>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+                <a href="./profile1.html">
+                  <button
+                    type="button"
+                    class="text-white my-3 bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+                  >
+                    Learn More...
+                  </button></a
+                >
+              </div>
+            </div>
+
+            <div class="p-4 shadow">
+              <!-- <div class="h-48 mb-2 overflow-hidden rounded-lg shadow-lg md:h-60">
+                <img
+                  src="user.png"
+                  alt="Image"
+                  class="object-cover object-center w-full h-full"
+                />
+              </div> -->
+
+              <div class="flex flex-col items-center justify-center">
+                <div
+                  class="font-bold my-2 text-center text-indigo-500 md:text-lg"
+                >
+                  MR. JOSEPH OLAREWAJU AKOLO
+                </div>
+                <p
+                  class="mb-3 text-md font-bold text-gray-500 md:text-base md:mb-4"
+                >
+                  Managing Director.
+                </p>
+
+                <div class="flex">
+                  <div class="flex gap-4">
+                    <a href="#">
+                      <svg
+                        class="w-6 h-6 mb-1 text-blue-600 fill-current"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"
+                        />
+                      </svg>
+                    </a>
+                    <a href="#">
+                      <svg
+                        class="w-6 h-6 mb-1 text-blue-300 fill-current"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"
+                        />
+                      </svg>
+                    </a>
+                    <a href="#">
+                      <svg
+                        class="w-6 h-6 mb-1 text-blue-500 fill-current"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 448 512"
+                      >
+                        <path
+                          d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"
+                        ></path>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+                <a href="./profile1.html"
+                  ><button
+                    type="button"
+                    class="text-white my-3 bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+                  >
+                    Learn More...
+                  </button></a
+                >
+              </div>
+            </div>
+
+            <div class="p-4 shadow">
+              <!-- <div class="h-48 mb-2 overflow-hidden rounded-lg shadow-lg md:h-60">
+                <img
+                  src="user.png"
+                  alt="Image"
+                  class="object-cover object-center w-full h-full"
+                />
+              </div> -->
+
+              <div class="flex flex-col items-center justify-center">
+                <div
+                  class="font-bold my-2 text-center text-indigo-500 md:text-lg"
+                >
+                  MR. GODWIN EBRIMONI
+                </div>
+                <p
+                  class="mb-3 text-md font-bold text-gray-500 md:text-base md:mb-4"
+                >
+                  General Manager
+                </p>
+
+                <div class="flex">
+                  <div class="flex gap-4">
+                    <a href="#">
+                      <svg
+                        class="w-6 h-6 mb-1 text-blue-600 fill-current"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"
+                        />
+                      </svg>
+                    </a>
+                    <a href="#">
+                      <svg
+                        class="w-6 h-6 mb-1 text-blue-300 fill-current"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"
+                        />
+                      </svg>
+                    </a>
+                    <a href="#">
+                      <svg
+                        class="w-6 h-6 mb-1 text-blue-500 fill-current"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 448 512"
+                      >
+                        <path
+                          d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"
+                        ></path>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+                <a href="./profile2.html"
+                  ><button
+                    type="button"
+                    class="text-white my-3 bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+                  >
+                    Learn More...
+                  </button></a
+                >
+              </div>
+            </div>
+
+            <div class="p-4 shadow">
+              <!-- <div class="h-48 mb-2 overflow-hidden rounded-lg shadow-lg md:h-60">
+                <img
+                  src="user.png"
+                  alt="Image"
+                  class="object-cover object-center w-full h-full"
+                />
+              </div> -->
+
+              <div class="flex flex-col items-center justify-center">
+                <div
+                  class="font-bold text-center text-indigo-500 my-2 md:text-lg"
+                >
+                  JOSEPH ZANKPA
+                </div>
+                <p
+                  class="mb-3 text-md font-bold text-gray-500 md:text-base md:mb-4"
+                >
+                  GDMS (General Duties, Maintenance and Supplies)
+                </p>
+
+                <div class="flex">
+                  <div class="flex gap-4">
+                    <a href="#">
+                      <svg
+                        class="w-6 h-6 mb-1 text-blue-600 fill-current"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"
+                        />
+                      </svg>
+                    </a>
+                    <a href="#">
+                      <svg
+                        class="w-6 h-6 mb-1 text-blue-300 fill-current"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"
+                        />
+                      </svg>
+                    </a>
+                    <a href="#">
+                      <svg
+                        class="w-6 h-6 mb-1 text-blue-500 fill-current"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 448 512"
+                      >
+                        <path
+                          d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"
+                        ></path>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+                <a href="./profile3.html"
+                  ><button
+                    type="button"
+                    class="text-white my-3 bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+                  >
+                    Learn More...
+                  </button></a
+                >
+              </div>
+            </div>
+
+            <div class="p-4 shadow">
+              <!-- <div class="h-48 mb-2 overflow-hidden rounded-lg shadow-lg md:h-60">
+                <img
+                  src="user.png"
+                  alt="Image"
+                  class="object-cover object-center w-full h-full"
+                />
+              </div> -->
+
+              <div class="flex flex-col items-center justify-center">
+                <div
+                  class="font-bold text-center text-indigo-500 my-2 md:text-lg"
+                >
+                  ONI LAWRENCE AKINLOLU
+                </div>
+                <p
+                  class="mb-3 text-md font-bold text-gray-500 md:text-base md:mb-4"
+                >
+                  General Manager Operations
+                </p>
+
+                <div class="flex">
+                  <div class="flex gap-4">
+                    <a href="#">
+                      <svg
+                        class="w-6 h-6 mb-1 text-blue-600 fill-current"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"
+                        />
+                      </svg>
+                    </a>
+                    <a href="#">
+                      <svg
+                        class="w-6 h-6 mb-1 text-blue-300 fill-current"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"
+                        />
+                      </svg>
+                    </a>
+                    <a href="#">
+                      <svg
+                        class="w-6 h-6 mb-1 text-blue-500 fill-current"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 448 512"
+                      >
+                        <path
+                          d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"
+                        ></path>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+                <a href="./profile3.html"
+                  ><button
+                    type="button"
+                    class="text-white my-3 bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+                  >
+                    Learn More...
+                  </button></a
+                >
+              </div>
+            </div>
+
+            <div class="p-4 shadow">
+              <!-- <div class="h-48 mb-2 overflow-hidden rounded-lg shadow-lg md:h-60">
+                <img
+                  src="user.png"
+                  alt="Image"
+                  class="object-cover object-center w-full h-full"
+                />
+              </div> -->
+
+              <div class="flex flex-col items-center justify-center">
+                <div
+                  class="font-bold text-center text-indigo-500 my-2 md:text-lg"
+                >
+                  DANIEL OLUSEGUN BELLO
+                </div>
+                <p
+                  class="mb-3 text-md font-bold text-gray-500 md:text-base md:mb-4"
+                >
+                  Head - IT Department
+                </p>
+
+                <div class="flex">
+                  <div class="flex gap-4">
+                    <a href="#">
+                      <svg
+                        class="w-6 h-6 mb-1 text-blue-600 fill-current"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"
+                        />
+                      </svg>
+                    </a>
+                    <a href="#">
+                      <svg
+                        class="w-6 h-6 mb-1 text-blue-300 fill-current"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"
+                        />
+                      </svg>
+                    </a>
+                    <a href="#">
+                      <svg
+                        class="w-6 h-6 mb-1 text-blue-500 fill-current"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 448 512"
+                      >
+                        <path
+                          d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"
+                        ></path>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+                <a href="./profile4.html"
+                  ><button
+                    type="button"
+                    class="text-white my-3 bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+                  >
+                    Learn More...
+                  </button></a
+                >
+              </div>
+            </div>
+
+            <div class="p-4 shadow">
+              <!-- <div class="h-48 mb-2 overflow-hidden rounded-lg shadow-lg md:h-60">
+                <img
+                  src="user.png"
+                  alt="Image"
+                  class="object-cover object-center w-full h-full"
+                />
+              </div> -->
+
+              <div class="flex flex-col items-center justify-center">
+                <div
+                  class="font-bold text-center text-indigo-500 my-2 md:text-lg"
+                >
+                  ISAAC AKINROSOYE
+                </div>
+                <p
+                  class="mb-3 text-md font-bold text-gray-500 md:text-base md:mb-4"
+                >
+                  Head - Operations Department
+                </p>
+
+                <div class="flex">
+                  <div class="flex gap-4">
+                    <a href="#">
+                      <svg
+                        class="w-6 h-6 mb-1 text-blue-600 fill-current"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"
+                        />
+                      </svg>
+                    </a>
+                    <a href="#">
+                      <svg
+                        class="w-6 h-6 mb-1 text-blue-300 fill-current"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"
+                        />
+                      </svg>
+                    </a>
+                    <a href="#">
+                      <svg
+                        class="w-6 h-6 mb-1 text-blue-500 fill-current"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 448 512"
+                      >
+                        <path
+                          d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"
+                        ></path>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+                <a href="#"
+                  ><button
+                    type="button"
+                    class="text-white my-3 bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+                  >
+                    Learn More...
+                  </button></a
+                >
+              </div>
+            </div>
+
+            <div class="p-4 shadow">
+              <!-- <div class="h-48 mb-2 overflow-hidden rounded-lg shadow-lg md:h-60">
+                <img
+                  src="user.png"
+                  alt="Image"
+                  class="object-cover object-center w-full h-full"
+                />
+              </div> -->
+
+              <div class="flex flex-col items-center justify-center">
+                <div
+                  class="font-bold text-center text-indigo-500 my-2 md:text-lg"
+                >
+                  OFFONG GLORY
+                </div>
+                <p
+                  class="mb-3 text-md font-bold text-gray-500 md:text-base md:mb-4"
+                >
+                  Head, Finance & Admin
+                </p>
+
+                <div class="flex">
+                  <div class="flex gap-4">
+                    <a href="#">
+                      <svg
+                        class="w-6 h-6 mb-1 text-blue-600 fill-current"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"
+                        />
+                      </svg>
+                    </a>
+                    <a href="#">
+                      <svg
+                        class="w-6 h-6 mb-1 text-blue-300 fill-current"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"
+                        />
+                      </svg>
+                    </a>
+                    <a href="#">
+                      <svg
+                        class="w-6 h-6 mb-1 text-blue-500 fill-current"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 448 512"
+                      >
+                        <path
+                          d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"
+                        ></path>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+                <a href="./profile4.html"
+                  ><button
+                    type="button"
+                    class="text-white my-3 bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+                  >
+                    Learn More...
+                  </button></a
+                >
+              </div>
+            </div>
+
+            <div class="p-4 shadow">
+              <!-- <div class="h-48 mb-2 overflow-hidden rounded-lg shadow-lg md:h-60">
+                <img
+                  src="user.png"
+                  alt="Image"
+                  class="object-cover object-center w-full h-full"
+                />
+              </div> -->
+
+              <div class="flex flex-col items-center justify-center">
+                <div
+                  class="font-bold text-center text-indigo-500 my-2 md:text-lg"
+                >
+                  OSCAR SUPERABLE
+                </div>
+                <p
+                  class="mb-3 text-md font-bold text-gray-500 md:text-base md:mb-4"
+                >
+                  Head - Plant Mechanical Department
+                </p>
+
+                <div class="flex">
+                  <div class="flex gap-4">
+                    <a href="#">
+                      <svg
+                        class="w-6 h-6 mb-1 text-blue-600 fill-current"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"
+                        />
+                      </svg>
+                    </a>
+                    <a href="#">
+                      <svg
+                        class="w-6 h-6 mb-1 text-blue-300 fill-current"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"
+                        />
+                      </svg>
+                    </a>
+                    <a href="#">
+                      <svg
+                        class="w-6 h-6 mb-1 text-blue-500 fill-current"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 448 512"
+                      >
+                        <path
+                          d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"
+                        ></path>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+                <a href="#./profile5.html"
+                  ><button
+                    type="button"
+                    class="text-white my-3 bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+                  >
+                    Learn More...
+                  </button></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-white dark:bg-gray-900">
+      <div class="container px-6 py-12 mx-auto">
+        <div class="text-center">
+          <p class="font-medium text-blue-500 dark:text-blue-400">Contact us</p>
+
+          <h1
+            class="mt-2 text-2xl font-semibold text-gray-800 md:text-3xl dark:text-white"
+          >
+            Get in touch
+          </h1>
+
+          <p class="mt-3 text-gray-500 dark:text-gray-400">
+            Our friendly team is always here to chat.
+          </p>
+        </div>
+
+        <div
+          class="grid grid-cols-1 gap-12 mt-10 md:grid-cols-2 lg:grid-cols-3"
+        >
+          <div class="flex flex-col items-center justify-center text-center">
+            <span
+              class="p-3 text-blue-500 rounded-full bg-blue-100/80 dark:bg-gray-800"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"
+                />
+              </svg>
+            </span>
+
+            <h2 class="mt-4 text-lg font-medium text-gray-800 dark:text-white">
+              Email
+            </h2>
+            <p class="mt-2 text-gray-500 dark:text-gray-400">
+              Our friendly team is here to help.
+            </p>
+            <p class="mt-2 text-blue-500 dark:text-blue-400">info@BCTL.com</p>
+          </div>
+
+          <div class="flex flex-col items-center justify-center text-center">
+            <span
+              class="p-3 text-blue-500 rounded-full bg-blue-100/80 dark:bg-gray-800"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z"
+                />
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"
+                />
+              </svg>
+            </span>
+
+            <h2 class="mt-4 text-lg font-medium text-gray-800 dark:text-white">
+              Office
+            </h2>
+            <p class="mt-2 text-gray-500 dark:text-gray-400">
+              Come say hello at our office HQ.
+            </p>
+            <p class="mt-2 text-blue-500 dark:text-blue-400">Lagos Nigeria</p>
+          </div>
+
+          <div class="flex flex-col items-center justify-center text-center">
+            <span
+              class="p-3 text-blue-500 rounded-full bg-blue-100/80 dark:bg-gray-800"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"
+                />
+              </svg>
+            </span>
+
+            <h2 class="mt-4 text-lg font-medium text-gray-800 dark:text-white">
+              Phone
+            </h2>
+            <p class="mt-2 text-gray-500 dark:text-gray-400">
+              Mon-Fri from 8am to 5pm.
+            </p>
+            <p class="mt-2 text-blue-500 dark:text-blue-400">
+              +1 (555) 000-0000
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mb-0 pb-0 my-auto">
+      <footer
+        class="pt-12 pb-8 mb-0 text-white font-bold bg-gray-700 border-t border-gray-200"
+      >
+        <div
+          class="container text-white flex flex-col justify-between w-full lg:max-w-6xl px-4 mx-auto overflow-hidden lg:flex-row"
+        >
+          <div
+            class="w-full pl-4 mr-4 text-left lg:w-1/4 sm:text-center sm:pl-0 lg:text-left"
+          >
+            <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+              <img
+                src="assets/images/BCTLLOGO.png"
+                class="h-16"
+                alt="Flowbite Logo"
+              />
+              <span
+                class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"
+                >Beachland</span
+              >
+            </a>
+            <p class="mt-6 mr-4 text-base text-white">
+              We are a customer-oriented logistics company with core competence
+              in courier delivery service and haulage handling.
+            </p>
+          </div>
+          <div class="block w-full mt-6 text-sm lg:w-2/4 sm:flex lg:mt-0">
+            <ul
+              class="flex flex-col w-full p-0 font-medium text-left text-gray-700 list-none"
+            >
+              <li
+                class="inline-block px-3 py-2 mt-5 font-bold tracking-wide text-white uppercase md:mt-0"
+              >
+                Product
+              </li>
+              <li>
+                <a
+                  href="#_"
+                  class="inline-block px-3 py-2 text-gray-100 no-underline hover:text-gray-600"
+                  >Features</a
+                >
+              </li>
+              <!-- <li><a href="#_"
+                          class="inline-block px-3 py-2 text-gray-100 no-underline hover:text-gray-600">Integrations</a>
+                  </li> -->
+              <li>
+                <a
+                  href="#_"
+                  class="inline-block px-3 py-2 text-gray-100 no-underline hover:text-gray-600"
+                  >Pricing</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#_"
+                  class="inline-block px-3 py-2 text-gray-100 no-underline hover:text-gray-600"
+                  >Services</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#_"
+                  class="inline-block px-3 py-2 text-gray-100 no-underline hover:text-gray-600"
+                  >FAQ</a
+                >
+              </li>
+            </ul>
+            <ul
+              class="flex flex-col w-full p-0 font-medium text-left text-gray-700 list-none"
+            >
+              <li
+                class="inline-block px-3 py-2 mt-5 font-bold tracking-wide text-white uppercase md:mt-0"
+              >
+                Company
+              </li>
+              <li>
+                <a
+                  href="#_"
+                  class="inline-block px-3 py-2 text-gray-100 no-underline hover:text-gray-600"
+                  >Privacy</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#_"
+                  class="inline-block px-3 py-2 text-gray-100 no-underline hover:text-gray-600"
+                  >Terms of Service</a
+                >
+              </li>
+            </ul>
+
+            <div class="flex flex-col w-full text-gray-700">
+              <div
+                class="inline-block px-3 py-2 mt-5 font-bold text-white uppercase md:mt-0"
+              >
+                Follow Us
+              </div>
+              <div class="flex justify-start pl-4 mt-2">
+                <a
+                  class="flex items-center block mr-6 text-gray-200 no-underline hover:text-gray-100"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="#!"
+                >
+                  <svg
+                    viewBox="0 0 24 24"
+                    class="w-5 h-5 fill-current"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M23.998 12c0-6.628-5.372-12-11.999-12C5.372 0 0 5.372 0 12c0 5.988 4.388 10.952 10.124 11.852v-8.384H7.078v-3.469h3.046V9.356c0-3.008 1.792-4.669 4.532-4.669 1.313 0 2.686.234 2.686.234v2.953H15.83c-1.49 0-1.955.925-1.955 1.874V12h3.328l-.532 3.469h-2.796v8.384c5.736-.9 10.124-5.864 10.124-11.853z"
+                    />
+                  </svg>
+                </a>
+                <a
+                  class="flex items-center block mr-6 text-gray-200 no-underline hover:text-gray-100"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="#!"
+                >
+                  <svg
+                    viewBox="0 0 24 24"
+                    class="w-5 h-5 fill-current"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M23.954 4.569a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.691 8.094 4.066 6.13 1.64 3.161a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.061a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.937 4.937 0 004.604 3.417 9.868 9.868 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63a9.936 9.936 0 002.46-2.548l-.047-.02z"
+                    />
+                  </svg>
+                </a>
+                <a
+                  class="flex items-center block text-gray-200 no-underline hover:text-gray-100"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="#!"
+                >
+                  <svg
+                    viewBox="0 0 24 24"
+                    class="w-5 h-5 fill-current"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="pt-4 pt-6 mt-10 text-center text-gray-100 border-t border-gray-100"
+        >
+          © 2022 Beachland consortium Limited. All rights reserved.
+        </div>
+
+        <div class="pt-2 pt-4 mt-2 text-center text-white border-gray-100">
+          Designed By
+          <a href="https://wittstack.com.ng/"
+            >Witt<span style="color: plum">Stack</span></a
+          >
+        </div>
+      </footer>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.4.1/dist/flowbite.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
+    <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
+  </body>
+</html>
+0
