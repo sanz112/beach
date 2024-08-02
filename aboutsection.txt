@@ -1,0 +1,68 @@
+<section id="about-us" class="dark:text-white dark:bg-gray-900">
+      <div
+        class="relative w-full px-4 py-4 pt-0 border-t border-gray-200 md:py-4 lg:py-6 xl:py-8 xl:px-0"
+      >
+        <div
+          class="container flex flex-col items-center justify-between h-full max-w-6xl mx-auto"
+        >
+          <div class="flex flex-col w-full lg:flex-row sm:mt-15 lg:mt-20">
+            <div
+              class="w-full flex flex-col items-center justify-center max-w-md p-4 mx-auto mb-0 sm:mb-16 lg:mb-0"
+            >
+              <div class="md:visible visible sm:invisible">
+                <img src="http://joatelimterminals.com/cma.jpg" />
+              </div>
+              <!-- <div class="flex flex-row"> -->
+              <div class="mx-auto mt-4">
+                <div id="mission" class="text-left flex flex-col">
+                  <h3
+                    class="font-black text-2xl lg:text-3xl text-indigo-600 my-4"
+                  >
+                    Mission Statement
+                  </h3>
+                  <p>
+                    Our mission is to provide unique and excellent professional
+                    shipping and logistics services that are tailored towards
+                    the needs of our clients in a manner that gives value for
+                    money.
+                  </p>
+                  <a
+                    href="./about-us.html"
+                    class="relative flex mt-3 font-bold text-sm font-medium text-indigo-500 underline"
+                    >Learn More...</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="w-full max-w-md p-4 mx-auto mb-0 sm:mb-16 lg:mb-0">
+              <h2
+                class="max-w-2xl px-0 mt-2 text-xl font-black leading-tight text-gray-900 sm:mt-0 sm:px-0 sm:text-3xl text-md ext-medium mt-4 my-4"
+              >
+                About Us!
+              </h2>
+              <p>
+                The Company was established in March 2012, as a result of the
+                Port Reforms initiated by the Nigerian Government, with the aim
+                to provide a high standard logistics service to Port users and
+                Port Terminal Operators. BCTL LIMITED offers its services for
+                shipments by air and sea including logistics for Customs
+                formalities and handles transportation for all your imports to
+                and exports from Nigeria. Our principal areas of activity are
+                shipping agency, empty container holding-bay, import, export,
+                haulage, warehousing and plant service. BCTL is able to ensure
+                that it remains at the heart of the Nigerian shipping industry.
+                It has since become one of the most advantageous holding-bay
+                operator that directly located close to the port with 90%
+                capacity above other empty container holding —bay in Lagos,
+                Nigeria We have good working relationship with the national and
+                international communities and our Company have properly
+                positioned itself to meet the challenges of the industry. The
+                Company identifies customers' needs, review services and make
+                value-adding contribution to clients businesses.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->

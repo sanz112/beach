@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"  class="scroll-smooth focus:scroll-auto">
   <head>
     <meta charset="UTF-8" />
     <meta
@@ -55,7 +55,7 @@
     </script>
   </head>
 
-  <body>
+  <body  class="scroll-smooth focus:scroll-auto">
     <section>
       <nav
         class="border-gray-200 bg-gray-50 dark:bg-gray-800 dark:border-gray-700"
@@ -74,7 +74,7 @@
             />
             <span
               class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"
-              >Beachland</span
+              >BCTL</span
             >
           </a>
           <button
@@ -107,29 +107,31 @@
             >
               <li>
                 <a
-                  href="#"
-                  class="block py-2 px-3 md:p-0 text-white bg-orange-700 rounded md:bg-transparent md:text-orange-700 md:dark:text-orange-500 dark:bg-orange-600 md:dark:bg-transparent"
-                  aria-current="page"
+                  href="/"
+                  class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-orange-700 dark:text-white md:dark:hover:text-orange-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+
+          
                   >Home</a
                 >
               </li>
               <li>
                 <a
                   href="/about-us.html"
-                  class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-orange-700 dark:text-white md:dark:hover:text-orange-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                  class="block py-2 px-3 md:p-0 text-white bg-orange-700 rounded md:bg-transparent md:text-orange-700 md:dark:text-orange-500 dark:bg-orange-600 md:dark:bg-transparent"
+                  aria-current="page"
                   >About Us</a
                 >
               </li>
               <li>
                 <a
-                  href="#"
+                  href="/#services"
                   class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-orange-700 dark:text-white md:dark:hover:text-orange-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                   >Services</a
                 >
               </li>
               <li>
                 <a
-                  href="#"
+                  href="/index.html/#teams"
                   class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-orange-700 dark:text-white md:dark:hover:text-orange-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                   >Teams</a
                 >
@@ -216,80 +218,91 @@
       }
     </style>
 
-    <section id="about-us" class="dark:text-white dark:bg-gray-900">
+    <section
+      id="about-us"
+      class="bg-white pt-5 dark:text-white dark:bg-gray-900"
+    >
       <div
-        class="relative w-full px-4 py-4 pt-0 border-t border-gray-200 md:py-4 lg:py-6 xl:py-8 xl:px-0"
+        class="grid max-w-screen-xl mt-5 pt-5 min-h-screen px-4 py-0 mx-auto lg:gap-8 xl:gap-10 lg:py-0 lg:grid-cols-12"
       >
-        <div
-          class="container flex flex-col items-center justify-between h-full max-w-6xl mx-auto"
-        >
-          <div class="flex flex-col w-full lg:flex-row sm:mt-15 lg:mt-20">
-            <div
-              class="w-full flex flex-col items-center justify-center max-w-md p-4 mx-auto mb-0 sm:mb-16 lg:mb-0"
-            >
-              <div class="md:visible visible sm:invisible">
-                <img src="http://joatelimterminals.com/cma.jpg" />
-              </div>
-              <!-- <div class="flex flex-row"> -->
-              <div class="mx-auto mt-4">
-                <div id="mission" class="text-left flex flex-col">
-                  <h3
-                    class="font-black text-2xl lg:text-3xl text-indigo-600 my-4"
-                  >
-                    Mission Statement
-                  </h3>
-                  <p>
-                    Our mission is to provide unique and excellent professional
-                    shipping and logistics services that are tailored towards
-                    the needs of our clients in a manner that gives value for
-                    money.
-                  </p>
-                  <a
-                    href="./about-us.html"
-                    class="relative flex mt-3 font-bold text-sm font-medium text-indigo-500 underline"
-                    >Learn More...</a
-                  >
-                </div>
-              </div>
-            </div>
-
-            <div class="w-full max-w-md p-4 mx-auto mb-0 sm:mb-16 lg:mb-0">
-              <h2
-                class="max-w-2xl px-0 mt-2 text-xl font-black leading-tight text-gray-900 sm:mt-0 sm:px-0 sm:text-3xl text-md ext-medium mt-4 my-4"
+        <div class="mr-auto place-self-center lg:col-span-6">
+          <img src="https://joatelimterminals.com/cont.jpg" />
+          <!-- <div class="flex flex-row"> -->
+          <div class="mx-auto">
+            <div id="mission" class="text-left flex flex-col">
+              <h3
+                class="font-black text-orange-500 lg:text-3xl text-orange-600 my-4"
               >
-                About Us!
-              </h2>
-              <p>
-                The Company was established in March 2012, as a result of the
-                Port Reforms initiated by the Nigerian Government, with the aim
-                to provide a high standard logistics service to Port users and
-                Port Terminal Operators. BCTL LIMITED offers its services for
-                shipments by air and sea including logistics for Customs
-                formalities and handles transportation for all your imports to
-                and exports from Nigeria. Our principal areas of activity are
-                shipping agency, empty container holding-bay, import, export,
-                haulage, warehousing and plant service. BCTL is able to ensure
-                that it remains at the heart of the Nigerian shipping industry.
-                It has since become one of the most advantageous holding-bay
-                operator that directly located close to the port with 90%
-                capacity above other empty container holding —bay in Lagos,
-                Nigeria We have good working relationship with the national and
-                international communities and our Company have properly
-                positioned itself to meet the challenges of the industry. The
-                Company identifies customers' needs, review services and make
-                value-adding contribution to clients businesses.
+                Mission Statement
+              </h3>
+              <p class="dark:text-white">
+                Our mission is to provide values, credibility and confidence
+                services to our customers by ensuring that a high standard
+                continue are provided with efficiency and management of services
+                .
+              </p>
+              <h3
+                class="font-black text-orange-500 lg:text-3xl text-orange-600 my-4"
+              >
+                Vision Statement
+              </h3>
+              <p class="dark:text-white">
+                To create a seamless and integrated logistics ecosystem,
+                streamlining the movement of goods and cargos through our
+                terminal and beyond.
               </p>
             </div>
           </div>
+        </div>
+
+        <div class="mr-auto place-self-center lg:col-span-6">
+          <h2
+            class="max-w-2xl dark:text-white px-0 mt-2 text-2xl font-black leading-tight text-gray-900 sm:mt-0 sm:px-0 sm:text-6xl text-md text-medium mt-4 my-4"
+          >
+            About Us!
+          </h2>
+          <p class="font-medium font-normal">
+            The name of the company is Beachland Consultium Terminal Limited
+            (BCTL). We are Located at Beachland Estate, beside Rahamaniyya Oil &
+            Gas Apapa, Lagos, Nigeria. The Company was established on June 5,
+            2020, as a result of the Port Reforms initiated by the Nigerian
+            Government, with the aim to provide a high standard logistics
+            service to Port users and Port Terminal Operators.
+          </p>
+
+          <p class="mt-2 font-medium font-normal" style="text-indent: 14px">
+            BCTL offers its services for shipments by air and sea including
+            logistics for Customs formalities and handles transportation for all
+            your imports to and exports from Nigeria. Our principal areas of
+            activity are shipping agency, empty container holding-bay, import,
+            export, haulage, warehousing and plant service. BCTL is able to
+            ensure that it remains at the heart of the Nigerian shipping
+            industry. It has since become one of the most advantageous
+            holding-bay operator that is directly located close to the port with
+            90% capacity above other full import & empty container holding —bays
+            in Lagos, Nigeria Our staff has been trained to give Customers
+            first-class services. Our operation department is renowned for its
+            personalized and professional approach to their job which is
+            acknowledged by our satisfied customers. We have fully entrenched
+            ourselves in this business as a service to our various clients. The
+            Company's unwavering continual dedication to quality and standard
+            services has earned it continuous patronage by clients. We have good
+            working relationship with the national and international communities
+            and our Company has properly positioned itself to meet the
+            challenges of the industry. The Company identifies customers' needs,
+            review services and make value-adding contribution to clients
+            businesses.
+          </p>
         </div>
       </div>
     </section>
 
     <section
-      id="services-1"
-      class="pt-5 flex flex-col w-full dark:text-white dark:bg-gray-900"
+      id="services"
+      class="py-5 flex flex-col w-full dark:text-white dark:bg-gray-900"
     >
-      <div>
+    <div class="my-5">
+      <div class="mt-4">
         <h2
           class="mx-auto text-center w-full dark:text-white px-0 mt-2 text-3xl md:text-5xl font-black leading-tight text-gray-900 sm:mt-0 sm:px-0 text-md text-medium mt-4 my-4"
         >
@@ -305,6 +318,122 @@
       <div
         class="grid mt-5 max-w-screen-xl min-h-screen px-4 grid-cols-1 md:grid-cols-2 py-5 mx-auto lg:gap-8 xl:gap-10 lg:py-0 lg:grid-cols-3 gap-4"
       >
+
+
+
+
+
+
+      
+
+      <div
+      class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+    >
+      <a href="#">
+        <img class="rounded-t-lg" src="./assets/images/terminal.jpg" alt="" />
+      </a>
+      <div class="p-5">
+        <a href="#">
+          <h5
+            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+          >
+          BCTL CONTAINER TERMINAL OPERATION.
+          </h5>
+        </a>
+        <p class="mb-1 font-normal text-gray-700 dark:text-gray-400">
+          <strong> BCTL</strong> is  in  operation,  24  hours  a day,  7  days  a week  and  365  days  a year.
+        </p>
+
+        <p class="mb-3 text-indent-4 text-gray-700 dark:text-gray-400">
+          The  Terminal  has  since  then  been  undergoing  a  development  process  in  order  to  comply with  the highest  standards  of  demands  of  our  Customers.  Within  this plan,  we  have  purchased  additional  Cargo  Handling  Equipment (CHE) and installed IT systems and programmed to manage all gate in and gate out for Import full & empty containers  in  real  time.  For  us  in  BCTL, we  believe  that  continuous  improvement  on the  existing  standards  is  the   best  way  to   achieving  leadership over  competition.  Our dedicated and well trained staff are offering the best available service with a personal touch in  order  to  satisfy  our  valuable customers.
+        </p>
+
+        
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <div
+    class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+  >
+    <a href="#">
+      <img class="rounded-t-lg" src="./assets/images/haul.jpg" alt="" />
+    </a>
+    <div class="p-5">
+      <a href="#">
+        <h5
+          class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+        >
+        BCTL BONDED  TERMINAL.
+        </h5>
+      </a>
+      <!-- <p class="mb-1 font-normal text-gray-700 dark:text-gray-400">
+        <strong> BCTL</strong> Haulage system is poise to deliver a world
+        class logistics system within and outside the port environment.
+        With our reliable trucking and the use of professional drivers,
+        our client goods and cargos are always safe. All our off country
+        trucking have goods on transit (GIT) insurance for purpose of
+        safety and effective delivery of cargo to their respective
+        destinations.
+      </p> -->
+
+      <p class="mb-3 text-indent-4 text-gray-700 dark:text-gray-400">
+        Our Customs  Bonded Terminal  services  was  approved  by  Nigeria Customs  Service  and  it will give logistics advantage being located within the port area, are easy access to vessel in  terms  of  quick evacuation  of  laden  containers  .  The  Import   Bonded  terminal  is  well equipped  with  four  45  tones  capacity containers  handling  plants,  IT  system, with world standard CCTV monitoring the whole terminal 24/7.  Well  trained staff  and  security  services  is  being  currently  managed  by Nigerian  Police,  Port  Command for the best terminal services with a personal touch in order to satisfy the Nigerian importers and  port  stakeholders.
+      </p>
+    </div>
+  </div>
+
+
+  
+  <div
+  class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+>
+  <a href="#">
+    <img class="rounded-t-lg" src="./assets/images/shipping.jpg" alt="" />
+  </a>
+  <div class="p-5">
+    <a href="#">
+      <h5
+        class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+      >
+      BCTL SHIPPING AGENCY  SERVICES.
+      </h5>
+    </a>
+    <!-- <p class="mb-1 font-normal text-gray-700 dark:text-gray-400">
+      <strong> BCTL</strong> Haulage system is poise to deliver a world
+      class logistics system within and outside the port environment.
+      With our reliable trucking and the use of professional drivers,
+      our client goods and cargos are always safe. All our off country
+      trucking have goods on transit (GIT) insurance for purpose of
+      safety and effective delivery of cargo to their respective
+      destinations.
+    </p> -->
+
+    <p class="mb-3 text-indent-4 text-gray-700 dark:text-gray-400">
+      As a Shipping  Agency  with  Registration  No  19292.  Under  Nigeria Ports Authority,
+
+Our pursuit  is  to  invigorate  the  Shipping  agency  services  in  our  current  line  of  shipping business.
+The Shipping  services  give  us  logistics  advantage being  an  indigenous  registered  Shipping Company as  a  result  of  the  Port  Reforms  initiated  by  the  Nigerian  Government,  with  the aim  to  providing  a  high standard  service  to  port  users.  The  office  is  well  equipped with I.T system  and  manned by dedicated  and  well trained  staff  for  the  best  shipping  service  with  a personal  touch  in  order  to  satisfy  the Nigerian  importers and  port  stakeholders.
+
+    </p>
+
+    
+  </div>
+</div>
+
+
+
+
+
+
         <div
           class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
         >
@@ -526,6 +655,8 @@
         ></div>
       </div>
     </div>
+  </div>
+</section>
 
     <section class="mb-0 pb-0 my-auto">
       <footer
